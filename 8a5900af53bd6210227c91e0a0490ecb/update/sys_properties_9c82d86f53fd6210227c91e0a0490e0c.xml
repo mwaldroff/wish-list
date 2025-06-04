@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Wish List property</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_104511_wish_list.WishListProp</name>
+        <read_roles/>
+        <suffix>WishListProp</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-03 19:00:06</sys_created_on>
+        <sys_id>9c82d86f53fd6210227c91e0a0490e0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_104511_wish_list.WishListProp</sys_name>
+        <sys_package display_value="Wish List" source="x_104511_wish_list">8a5900af53bd6210227c91e0a0490ecb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wish List">8a5900af53bd6210227c91e0a0490ecb</sys_scope>
+        <sys_update_name>sys_properties_9c82d86f53fd6210227c91e0a0490e0c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-03 19:00:06</sys_updated_on>
+        <type>string</type>
+        <value>fubar</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=9c82d86f53fd6210227c91e0a0490e0c"/>
+</record_update>
