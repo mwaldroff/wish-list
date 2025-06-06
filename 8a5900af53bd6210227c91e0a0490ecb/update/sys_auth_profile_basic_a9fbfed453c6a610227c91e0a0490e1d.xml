@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_auth_profile_basic">
+    <sys_auth_profile_basic action="INSERT_OR_UPDATE">
+        <name>bad auth</name>
+        <password>﷞﷟﷒576dcf8053466610227c91e0a0490e53﷬﷔1﷬﷭2K6N4Yqm1ZWJbNIeEs0MBQ==L6bupIhs7UU-zPuwUF_aSTKO79bTxQ==﷮﷯</password>
+        <sys_class_name>sys_auth_profile_basic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-06 15:15:41</sys_created_on>
+        <sys_id>a9fbfed453c6a610227c91e0a0490e1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>bad auth</sys_name>
+        <sys_package display_value="Wish List" source="x_104511_wish_list">8a5900af53bd6210227c91e0a0490ecb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wish List">8a5900af53bd6210227c91e0a0490ecb</sys_scope>
+        <sys_update_name>sys_auth_profile_basic_a9fbfed453c6a610227c91e0a0490e1d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-06 15:15:41</sys_updated_on>
+        <username>foobar</username>
+    </sys_auth_profile_basic>
+</record_update>
