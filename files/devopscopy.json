@@ -1,0 +1,337 @@
+{
+  "statefile_suffix": "$(Build.BuildId)",
+  "environment": [
+    {
+      "label": "Development",
+      "value": "dev"
+    },
+    {
+      "label": "Test",
+      "value": "tst"
+    },
+    {
+      "label": "Staging",
+      "value": "stg"
+    },
+    {
+      "label": "Production",
+      "value": "prd"
+    }
+  ],
+  "security": [
+    {
+      "label": "Standard",
+      "value": "Standard",
+      "location": [
+        {
+          "label": "2 MTC Data Center)",
+          "value": "2 MTC Data Center",
+          "server": "MTDC_CPC"
+        },
+        {
+          "label": "NJDC Data Center Suite 180",
+          "value": "NJDC Data Center Suite 180",
+          "server": "NJDC_CPC"
+        }
+      ]
+    },
+    {
+      "label": "High)",
+      "value": "High",
+      "location": [
+        {
+          "label": "2 MTC Data Center)",
+          "value": "2 MTC Data Center",
+          "server": "MTDC_CPCP"
+        },
+        {
+          "label": "NJDC Data Center Suite 180",
+          "value": "NJDC Data Center Suite 180",
+          "server": "NJDC_CPCP"
+        }
+      ]
+    },
+    {
+      "label": "DAP)",
+      "value": "DAP",
+      "location": [
+        {
+          "label": "2 MTC Data Center)",
+          "value": "2 MTC Data Center",
+          "server": "MTDC_DAP"
+        }
+      ]
+    }
+  ],
+  "workgroup": "test",
+  "vm_count": [
+    {
+      "label": "1",
+      "value": "1"
+    },
+    {
+      "label": "2",
+      "value": "2"
+    },
+    {
+      "label": "3",
+      "value": "3"
+    },
+    {
+      "label": "4",
+      "value": "4"
+    },
+    {
+      "label": "5",
+      "value": "5"
+    },
+    {
+      "label": "6",
+      "value": "6"
+    },
+    {
+      "label": "7",
+      "value": "7"
+    },
+    {
+      "label": "8",
+      "value": "8"
+    },
+    {
+      "label": "9",
+      "value": "9"
+    },
+    {
+      "label": "10",
+      "value": "10"
+    }
+  ],
+  "vm_type": {
+    "Standard": [
+      {
+        "label": "g2.small",
+        "value": "g2.small:GeneralPurpose:2vCPU:4GB-RAM"
+      },
+      {
+        "label": "g2.medium",
+        "value": "g2.medium:GeneralPurpose:2vCPU:8GB-RAM"
+      },
+      {
+        "label": "g2.large",
+        "value": "g2.large:GeneralPurpose:4vCPU:8GB-RAM"
+      },
+      {
+        "label": "g2.xlarge",
+        "value": "g2.xlarge:GeneralPurpose:4vCPU:16GB-RAM"
+      },
+      {
+        "label": "c2.small",
+        "value": "c2.small:ComputeOptimized:4vCPU:4GB-RAM"
+      },
+      {
+        "label": "c2.medium",
+        "value": "c2.medium:ComputeOptimized:4vCPU:8GB-RAM"
+      },
+      {
+        "label": "c2.large",
+        "value": "c2.large:ComputeOptimized:8vCPU:16GB-RAM"
+      },
+      {
+        "label": "c2.xlarge",
+        "value": "c2.xlarge:ComputeOptimized:16vCPU:32GB-RAM"
+      },
+      {
+        "label": "r2.small",
+        "value": "r2.small:MemoryOptimized:2vCPU:16GB-RAM"
+      },
+      {
+        "label": "r2.medium",
+        "value": "r2.medium:MemoryOptimized:4vCPU:32GB-RAM"
+      },
+      {
+        "label": "r2.large",
+        "value": "r2.large:MemoryOptimized:8vCPU:64GB-RAM"
+      },
+      {
+        "label": "r2.xlarge",
+        "value": "r2.xlarge:MemoryOptimized:16vCPU:128GB-RAM"
+      }
+    ],
+    "Oracle": [
+      {
+        "label": "NOT_CATALOG_SUPPORTED",
+        "value": "o2.small:OracleDB:4vCPU:16GB-RAM"
+      },
+      {
+        "label": "NOT_CATALOG_SUPPORTED",
+        "value": "o2.medium:OracleDB:8vCPU:32GB-RAM"
+      },
+      {
+        "label": "NOT_CATALOG_SUPPORTED",
+        "value": "o2.large:OracleDB:16vCPU:64GB-RAM"
+      },
+      {
+        "label": "NOT_CATALOG_SUPPORTED",
+        "value": "o2.rac.small:OracleRACDB:4vCPU:16GB-RAM"
+      },
+      {
+        "label": "NOT_CATALOG_SUPPORTED",
+        "value": "o2.rac.medium:OracleRACDB:8vCPU:32GB-RAM"
+      },
+      {
+        "label": "NOT_CATALOG_SUPPORTED",
+        "value": "o2.rac.large:OracleRACDB:16vCPU:64GB-RAM"
+      }
+    ],
+    "SQL": [
+      {
+        "label": "NOT_CATALOG_SUPPORTED",
+        "value": "s2.small:SQL:4vCPU:16GB-RAM"
+      },
+      {
+        "label": "NOT_CATALOG_SUPPORTED",
+        "value": "s2.medium:SQL:8vCPU:34GB-RAM"
+      },
+      {
+        "label": "NOT_CATALOG_SUPPORTED",
+        "value": "s2.large:SQL:16vCPU:64GB-RAM"
+      }
+    ]
+  },
+  "role": [
+    {
+      "label": "Application",
+      "value": "a"
+    },
+    {
+      "label": "Database",
+      "value": "d"
+    },
+    {
+      "label": "Web Servers",
+      "value": "w"
+    },
+    {
+      "label": "Infrastructure (ADDS)",
+      "value": "i"
+    }
+  ],
+  "backup_tag": [
+    "none",
+    "VADP-DEV-DEF",
+    "VADP-PRD-DEF"
+  ],
+  "agency_tag": "agency_name",
+  "application": "twr",
+  "now_ticket_number": "INC0000",
+  "project": "dap",
+  "destroy_validation": "N/A",
+  "snow_request": "false",
+  "developer_mode": "false",
+  "agency_short_code": "agency_name",
+  "used_by": "$(Build.RequestedForEmail)",
+  "managed_by": [
+    {
+      "label": "Self-Managed",
+      "value": "Self-managed"
+    },
+    {
+      "label": "OTI-managed (Managed)",
+      "value": "Managed"
+    }
+  ],
+  "criticality": [
+    {
+      "label": "Not Critical",
+      "value": "not_critical"
+    },
+    {
+      "label": "Less Critical",
+      "value": "less_critical"
+    },
+    {
+      "label": "Somewhat Critical",
+      "value": "somewhat_critical"
+    },
+    {
+      "label": "Most Critical",
+      "value": "most_critical"
+    }
+  ],
+  "name": "doitt",
+  "comments": "N/A",
+  "doitt_shared_image_gallery_definition_name": [
+    {
+      "label": "dap-rhel8-server",
+      "value": "dap-rhel8-server"
+    },
+    {
+      "label": "dap-windows-server-datacenter-2019",
+      "value": "dap-windows-server-datacenter-2019"
+    }
+  ],
+  "os_type": [
+    {
+      "label": "RHEL 8",
+      "value": "RHEL8"
+    },
+    {
+      "label": "RHEL 9",
+      "value": "RHEL9"
+    },
+    {
+      "label": "NOT_CATALOG_SUPPORTED",
+      "value": "WindowsServer2019"
+    },
+    {
+      "label": "Windows Server 2022",
+      "value": "WindowsServer2022"
+    }
+  ],
+  "disk_count": [
+    {
+      "label": "0",
+      "value": "0"
+    },
+    {
+      "label": "1",
+      "value": "1"
+    },
+    {
+      "label": "2",
+      "value": "2"
+    },
+    {
+      "label": "3",
+      "value": "3"
+    }
+  ],
+  "disk_size": [
+    {
+      "label": "80",
+      "value": "80"
+    },
+    {
+      "label": "100",
+      "value": "100"
+    },
+    {
+      "label": "120",
+      "value": "120"
+    },
+    {
+      "label": "150",
+      "value": "150"
+    },
+    {
+      "label": "200",
+      "value": "200"
+    }
+  ],
+  "patch_type": [
+    "automatic",
+    "scheduled",
+    "manual"
+  ],
+  "patch_date_time": "none"
+}
