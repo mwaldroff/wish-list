@@ -110,7 +110,10 @@
     "Standard": [
       {
         "label": "g2.small",
-        "value": "g2.small:GeneralPurpose:2vCPU:4GB-RAM"
+        "value": "g2.small:GeneralPurpose:2vCPU:4GB-RAM",
+        "purpose": "GeneralPurpose",
+        "cpu": "2vCPU",
+        "ram": "4GB-RAM"
       },
       {
         "label": "g2.medium",
