@@ -118,6 +118,8 @@
       {
         "label": "g2.medium",
         "value": "g2.medium:GeneralPurpose:2vCPU:8GB-RAM"
+        "purpose": "GeneralPurpose",
+        "ram": "8GB-RAM"
       },
       {
         "label": "g2.large",
